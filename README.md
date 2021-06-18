@@ -16,14 +16,24 @@ npm uninstall -g truffle
 npm install -g truffle
 npm install -g solc@0.4
 
-Command to deploy to Rinkeby using truffle
-truffle migrate --reset --network rinkeby
-
-
 Truffle v5.3.10 (core: 5.3.10)
 Solidity v0.4.24 (solc-js)
 Node v14.16.1
 “Token Address” on the Rinkeby Network - 0x27f587de3f65e73beb8d2c3e6f0ed413197df33d
+Transaction ID: 0xb7a54a39eec3c58c61193713ad508003873467192d045782b9c922cbf8f67182
+
+UML DIAGRAMS
+Activity Diagram:
+![truffle test](images/Activity.png)
+
+State Diagram:
+![truffle test](images/State.png)
+
+Sequence Diagram:
+![truffle test](images/Sequence.png)
+
+Classes (Data Model) Diagram:
+![truffle test](images/class.png)
 
 ## Getting Started
 
@@ -100,6 +110,12 @@ In a separate terminal window, launch the DApp:
 
 ```
 npm run dev
+```
+
+Command to deploy to Rinkeby using truffle
+
+```
+truffle migrate --reset --network rinkeby
 ```
 
 ## Built With
