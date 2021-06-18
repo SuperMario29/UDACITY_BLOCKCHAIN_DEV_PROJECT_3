@@ -13,11 +13,14 @@ The DApp User Interface when running should look like...
 ![truffle test](images/ftc_transaction_history.png)
 
 npm uninstall -g truffle
-npm install -g truffle@4.1.14
+npm install -g truffle
 npm install -g solc@0.4
 
+Command to deploy to Rinkeby using truffle
+truffle migrate --reset --network rinkeby
 
-Truffle v4.1.14 (core: 5.0.2)
+
+Truffle v5.3.10 (core: 5.3.10)
 Solidity v0.4.24 (solc-js)
 Node v14.16.1
 “Token Address” on the Rinkeby Network - 0x27f587de3f65e73beb8d2c3e6f0ed413197df33d
